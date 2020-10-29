@@ -1,0 +1,67 @@
+		a.Membrs{
+  			background-color: orange;
+		  	  padding: 45px 80px;
+			  border-radius: 8px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 30px;
+			  color : White;
+			  margin: 4px 2px;
+  		}
+		 
+		a.Pets{
+  			background-color: green;
+		  	  padding: 45px 60px;
+			  border-radius: 8px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 30px;
+			  color : White;
+			  margin: 4px 2px;
+  		}
+  		a.Tips{
+  			background-color: #0380fc;
+		  	  padding: 45px 60px;
+			  border-radius: 8px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 30px;
+			  color : White;
+			  margin: 4px 2px;
+  		}
+		  a:hover, a:active {
+		  background-color: #fc2003;
+		  color:White;	
+		}
+		
+		.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
